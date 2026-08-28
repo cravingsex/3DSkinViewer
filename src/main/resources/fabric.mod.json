@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "skinviewer",
+  "version": "${version}",
+  "name": "SkinViewer",
+  "description": "A live 3D view of your Minecraft skin in menus.",
+  "authors": ["@cravingsex"],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.cravingsex.skinviewer.SkinViewerClient"],
+    "modmenu": ["de.cravingsex.skinviewer.ModMenuIntegration"]
+  },
+  "mixins": ["skinviewer.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

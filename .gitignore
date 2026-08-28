@@ -1,0 +1,26 @@
+# Gradle build output and local caches
+.gradle/
+build/
+run/
+
+# IDE settings
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Local Minecraft configuration, logs, and crash reports
+config/
+logs/
+crash-reports/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Java compiler output
+*.class
+*.log

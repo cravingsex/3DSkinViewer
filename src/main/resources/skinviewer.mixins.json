@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "de.cravingsex.skinviewer.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["ScreenMixin", "AvatarRendererMixin", "ContainerEventHandlerMixin"],
+  "injectors": {"defaultRequire": 1}
+}
